@@ -1,0 +1,161 @@
+body{
+    background-image: url('Screenshot\ 2024-03-19\ 024259.png');
+    background-size: cover; /* Untuk mengisi seluruh area latar belakang */
+    background-repeat: no-repeat; /* Untuk mencegah pengulangan gambar */
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    min-height: 80vh; 
+    flex-direction: column; 
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #333;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border-radius: 10px
+}
+
+button:hover{
+    background-color: #3fbecc;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%; /* Menghapus bottom: 0; dan mengubah lebar menjadi 100% */
+    bottom: 0; /* Menggeser footer ke bagian bawah */
+    left: 0; /* Meletakkan footer di sepanjang sisi kiri */
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.social-icons a:hover {
+    color: rgb(26, 105, 106);
+    transform: scaleX(2);
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px 50px;
+    background-color: #36817d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(40, 22, 22, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #794040;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #513f3f;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #eedabd;
+    color: #7b6666;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a3446;
+}
+
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgb(31, 29, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: rgb(97, 85, 85);
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+}
+
+.aboutme {
+    max-width: 800px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3c7389;
+    border-radius: 10px;
+}
+
+h2, p {
+    color: white;
+}
+.back-btn {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333;
+    padding: 10px 16px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.back-btn:hover {
+    background-color: #001558;
+    color: #ffffff;
+    transform: scale(1.1);
+}
